@@ -1,0 +1,90 @@
+html {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	margin: 0
+	padding: 0;
+}
+
+body{
+	width: 80%;
+	margin: auto;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: 2rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+h3 {
+	text-align: center;
+}
+
+header{
+	font-family: 'Lobster', cursive;
+	background-image: url('../images/toms-restaurant.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50rem;
+	margin-top: 0;
+}
+	#header{
+		background-color: rgba(0, 0, 0, 0.5);
+		position: relative;
+		top: 16rem;
+		width: 100%;
+		margin: 0;
+		color: white;
+		padding: 0.5rem 0 1rem 0;		
+	}
+		#header h1{
+			font-size: 4.5rem;
+			text-align: center;
+		}
+		#header h2{
+			font-size: 3rem;
+			text-align: center;
+		}
+
+	#map{
+		height: 20rem;
+	}
+	.reservations-main,
+	.reviews {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start; 
+		padding: 1rem 0;
+	}
+
+		.make-reservation,
+		.show-reservation {
+			border: 0.5px solid grey;
+			width: 40%;
+			height: 15rem;
+			text-align: center;
+		}
+
+		.show-reservation table{
+			margin: 0 auto;
+		}
+
+		#review-image,
+		#review-text{
+			width: 40%;
+			height: auto;
+		}
+
+		#review-text p,
+		#review-image img{
+			font-size: 1.5rem;
+			text-align: right;
+			width: 100%;
+		}
